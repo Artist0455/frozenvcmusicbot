@@ -7,18 +7,20 @@ services:
     startCommand: "python main.py"
     envVars:
       - key: API_HASH
-        value: "accfaf5ecd981c67e481328515c39f89"
+        sync: false
       - key: API_ID
-        value: "25136703"
+        sync: false
       - key: ASSISTANT_SESSION
-        value: "BQF_jj8ApFLSydXerinArNG09UZAlEcQN-RLeSjVAfToA4KBGz1W_qlYDjDPhsCbuDWN2u1QdzdMPLt2GENytfEZ8t5P-URila7K2g9eGpo-9ACSkEG4YVVEO6_9KZpSdykzVw3r7C1L6qsiLq258fuO3PE_bGlgKscgg8nojP4epJ-KiyBHhv1tschUhtrzCxPM-vqydtEuVwgMMO4MVWGIv1haGbvQFhdcplvwdEYVTagyCN14Wee7MJBKDqzSLR-aFqIPxbduggvsbyq7-13VtlAJstxNAstK__A16EZjx7SExvwTesWJDqxsBlr_yTEtxZXeHjsh5K1QVKbjqOrSxchHcwAAAAHtD_bkAA"
+        sync: false
       - key: BOT_TOKEN
-        value: "8339585926:AAG-GEsQuJfjqW1ioinGyVFBh8teMhCG95g"
+        sync: false
       - key: OWNER_ID
-        value: "8272213732"
+        sync: false
       - key: MongoDB_url
-        value: "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        sync: false
       - key: UPDATES_CHANNEL
-        value: "shribots"
+        sync: false
       - key: SUPPORT_GROUP
-        value: "shribots"
+        sync: false
+
+
